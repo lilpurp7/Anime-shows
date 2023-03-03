@@ -22,6 +22,8 @@ div {
   background-color: rgb(226, 98, 98) ;
   color: rgb(250, 204, 204);
   width: 100PX;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 .dark-gray { 
@@ -47,28 +49,51 @@ div {
 
 .Action {
   color: rgb(243, 195, 193);
+  padding: 5px;
 }
 
 
 .Horror{
   color: rgb(184, 182, 182);
+  padding: 5px;
 }
 
 
 .Romance{
   color: rgb(252, 167, 210);
+  padding: 5px;
 }
 
 
 .Comedy {
   color: rgb(236, 201, 188);
+  padding: 5px;
+ 
 }
 
 
 .Sci-fi{
   color: rgb(250, 240, 201);
+  padding: 5px;
 }
 
+a {
+  display: block;
+}
 
+.Romance:hover {
+  background-color: rgb(167, 42, 33);
+}
 
-
+.Action:hover {
+  background-color: rgb(99, 3, 3);
+}
+.Horror:hover{
+  background-color: black;
+}
+.Comedy:hover{
+  background-color: rgb(253, 126, 22);
+}
+.Sci-fi:hover{
+  background-color: rgb(58, 56, 32);
+}
